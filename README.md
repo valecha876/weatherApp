@@ -14,7 +14,7 @@ JavaScript - Logic and API integration
 
 Weather API - Fetch real-time weather data
 
-🚀 How to Use
+🚀 How to Use -
 Enter a city name in the search box.
 Click the "Get Weather" button.
 View the temperature, humidity, and weather conditions.
