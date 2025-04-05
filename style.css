@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #171717;
+}
+
+.container {
+    background-color: #fff;
+    width: 800px;
+    color: #171717;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 4rem auto;
+}
+
+.weather_header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.input {
+    border: none;
+    background: #1e1e1e;
+    color: #fff;
+    outline: none;
+    padding-left: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input[type="text"] {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: #f7f7f7;
+}
+
+.city_name {
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: black;
+    color: #f7f7f7;
+    border: 1px solid black;
+}
+
+.weather_date_time {
+    padding: 7px;
+}
+
+.city_name::placeholder {
+    color: #f7f7f7;
+}
+
+.weather_search {
+    position: relative;
+}
+
+.weather_body {
+    text-align: center;
+    padding: 10px;
+}
+
+.weather_search i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.weather_temperature {
+    font-size: 40px;
+}
+
+.weather_forecast {
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+.weather_info {
+    display: flex;
+    padding: 20px;
+
+}
+
+.weather_card {
+    width: 500px;
+    height: 90px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 26px;
+    display: flex;
+
+}
+
+.weather_min,
+.weather_max {
+    padding: 20px;
+}
+
+.weather_date_time,
+.weather_city {
+    font-size: 28px;
+}
+
+.weather_minmax {
+    display: flex;
+    padding-left: 250px;
+}
+
+.weather_card i {
+    padding-right: 10px;
+}
+
+.weather_feelsLike,
+.weather_humidity,
+.weather_pressure {
+    padding: 5px;
+}
+
+.weather_wind {
+    padding: 2px;
+}
